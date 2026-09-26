@@ -1,0 +1,1 @@
+#!/usr/bin/env sh\nexec python3 "$(dirname "$0")/git_swap.py" "$@"\n
