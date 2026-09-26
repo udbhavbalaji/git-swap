@@ -24,4 +24,10 @@ git-swap current
 git-swap remove <profile>
 ```
 
-To use it from anywhere, put this directory on your `PATH`, or install the `git-swap` launcher into a directory already on your `PATH`.
+## Install globally for your user
+
+```sh
+./install.sh
+```
+
+This installs the `git-swap` command to `$XDG_BIN_HOME` or `~/.local/bin`. If that directory is not already on your `PATH`, add the export printed by the installer to your shell profile, then start a new shell.
